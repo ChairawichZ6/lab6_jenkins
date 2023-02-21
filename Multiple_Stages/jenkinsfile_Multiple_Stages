@@ -18,17 +18,17 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'echo Deploying build'
+                sh 'echo Deploying build bomb'
             }
         }
         stage('Regression tests') {
             steps {
-                sh 'echo Running E2E tests'
+                sh 'echo Running E2E testo testo'
             }
         }
         stage('Release to prod') {
             steps {
-                sh 'echo Releasing to prod'
+                sh 'echo Releasing to Moon'
             }
         }
     }
